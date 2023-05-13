@@ -26,7 +26,7 @@ let arr = [
   
   function addData() {
     //This is for console.log
-    let newStudent = {id:4, name:"susan", age:"20" , marks:45};
+    let newStudent = {id:4, name:"megha", age:"25" , marks:46};
     arr.push(newStudent);
     console.log(arr);
   }
@@ -40,9 +40,9 @@ let arr = [
   function concatenateArray() {
     //This is for just console.log
     let new_Arr = [
-      { id: 4, name: "ovaid", age: "24", marks: 90 },
-      { id: 5, name: "suhaib", age: "16", marks: 50 },
-      { id: 6, name: "tafim", age: "16", marks: 50 },
+      { id: 4, name: "Aman", age: "28", marks: 92 },
+      { id: 5, name: "Rohan", age: "18", marks: 56 },
+      { id: 6, name: "Mohit", age: "18", marks: 58 },
     ];
   
     let concatenatedArr = arr.concat(new_Arr);
